@@ -11,7 +11,6 @@ public class TelaPrograma extends JFrame {
         this.rows = rows;
         this.setLayout(new GridLayout(rows,cols));
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        this.setVisible(true);
     }
     public void addInPosition(int row, int col, JPanel panel) {
         if(col <= this.cols && row <= this.rows){
@@ -21,7 +20,7 @@ public class TelaPrograma extends JFrame {
                         this.add(panel);
                     }
                     else{
-                        this.add(new TelaGenerica(new Color(0x242475)));
+                        this.add(new TelaGenerica(new Color(0x17D781)));
                     }
                 }
             }
