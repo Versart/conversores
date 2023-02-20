@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PanelButtonConvert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TelaPrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TelaPrograma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conversor de Moedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Conversor-de- Moedas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanelButtonConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TelaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TelaGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TelaPrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TelaPrograma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +45,31 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Conversor de Moedas" />
+      <module name="Conversor-de- Moedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Conversor-de- Moedas" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Conversor-de- Moedas" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -65,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676653470201</updated>
       <workItem from="1676653485685" duration="14277000" />
-      <workItem from="1676749846683" duration="10134000" />
+      <workItem from="1676749846683" duration="10973000" />
+      <workItem from="1676838573917" duration="8286000" />
     </task>
     <servers />
   </component>

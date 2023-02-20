@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.math.BigDecimal;
+import java.util.List;
 
 public class PanelButtonConvert extends JPanel implements ActionListener {
 
@@ -14,9 +15,13 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
 
     private JLabel conversionResult;
 
+    private JComboBox optionsConversion;
 
+    private List<String> options;
     public PanelButtonConvert(){
         this.setBackground(new Color(0x17D781));
+        optionsConversion = new JComboBox<>(new ListOptionMoney().getConversiosMoney().toArray());
+        optionsConversion.addActionListener(this);
         buttonToConvert = new JButton();
         buttonToConvert.addActionListener(this);
         inputValue = new JTextField(20);
@@ -28,6 +33,7 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
         buttonToConvert.setBackground(new Color(0,0,0));
         buttonToConvert.setForeground(new Color(255,255,255));
         buttonToConvert.setSize(300,300);
+        this.add(optionsConversion);
         this.add(jLabel);
         this.add(inputValue);
         this.add(buttonToConvert);
