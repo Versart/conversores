@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 import java.util.List;
 
+
 public class PanelButtonConvert extends JPanel implements ActionListener {
 
     private JButton buttonToConvert;
@@ -20,19 +21,17 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
     private List<String> options;
     public PanelButtonConvert(){
         this.setBackground(new Color(0x17D781));
+        this.setLayout(new GridLayout(5,1,0,20));
         optionsConversion = new JComboBox<>(new ListOptionMoney().getConversiosMoney().toArray());
-        optionsConversion.addActionListener(this);
         buttonToConvert = new JButton();
         buttonToConvert.addActionListener(this);
-        inputValue = new JTextField(20);
-        inputValue.setSize(50,30);
+        inputValue = new JTextField(10);
         jLabel = new JLabel("Digite o valor:");
         conversionResult = new JLabel();
         conversionResult.setVisible(false);
         buttonToConvert.setText("Converter");
         buttonToConvert.setBackground(new Color(0,0,0));
         buttonToConvert.setForeground(new Color(255,255,255));
-        buttonToConvert.setSize(300,300);
         this.add(optionsConversion);
         this.add(jLabel);
         this.add(inputValue);
@@ -44,9 +43,11 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent event) {
         if(inputValue.getText().trim().length() > 0){
             try {
+
                 String input = inputValue.getText();
                 BigDecimal valor = new BigDecimal(input);
-                this.conversionResult.setText("O valor é:" + valor);
+                String local = Localization.getLocale(optionsConversion.getSelectedItem().toString());
+                this.conversionResult.setText("O valor convertido é: " + new ConvertValue().convertValue(valor,local));
                 this.conversionResult.setVisible(true);
             }catch (NumberFormatException e){
                 JOptionPane.showMessageDialog(null,"Digite um número válido",

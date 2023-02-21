@@ -5,15 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_money_money_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javamoney_moneta_moneta_convert_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javamoney_moneta_moneta_convert_ecb_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javamoney_moneta_moneta_convert_imf_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javamoney_moneta_moneta_core_1_4_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Conversor de Moedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Conversor-de- Moedas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanelButtonConvert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TelaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TelaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TelaPrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TelaPrograma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Conversor-de- Moedas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Conversor-de- Moedas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConvertValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConvertValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PanelButtonConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConvertValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConvertValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PanelButtonConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PanelButtonConvert.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +95,7 @@
       <updated>1676653470201</updated>
       <workItem from="1676653485685" duration="14277000" />
       <workItem from="1676749846683" duration="10973000" />
-      <workItem from="1676838573917" duration="8286000" />
+      <workItem from="1676838573917" duration="36413000" />
     </task>
     <servers />
   </component>
