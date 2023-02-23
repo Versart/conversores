@@ -1,3 +1,5 @@
+package gui;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -20,7 +22,7 @@ public class TelaPrograma extends JFrame {
                         this.add(panel);
                     }
                     else{
-                        this.add(new TelaGenerica(new Color(0x17D781)));
+                        this.add(new TelaGenerica(new Color(0x4669CE)));
                     }
                 }
             }

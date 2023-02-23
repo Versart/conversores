@@ -1,3 +1,5 @@
+package controller;
+
 import java.util.Locale;
 
 public class Localization {
@@ -18,8 +20,9 @@ public class Localization {
         }
         else if(locale.equals("Peso Chileno")){
             return "CLP";
-        }
-        else{
+        } else if (locale.equals("Real")) {
+            return "BRL";
+        } else{
             return null;
         }
     }

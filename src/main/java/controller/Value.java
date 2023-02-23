@@ -1,3 +1,5 @@
+package controller;
+
 public class Value {
 
     private String bid;
@@ -13,7 +15,7 @@ public class Value {
 
     @Override
     public String toString() {
-        return "Value{" +
+        return "controller.Value{" +
                 "objectValue='" + bid + '\'' +
                 '}';
     }

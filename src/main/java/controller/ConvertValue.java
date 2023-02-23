@@ -1,5 +1,6 @@
+package controller;
+
 import com.google.gson.Gson;
-import org.javamoney.moneta.FastMoney;
 import org.javamoney.moneta.Money;
 
 import javax.money.CurrencyUnit;
@@ -38,25 +39,30 @@ public  class  ConvertValue {
 //        return   money.with(conversion);
 //    }
 
-    public  MonetaryAmount convertValue(BigDecimal value, String locale) {
-        HttpClient httpClient = HttpClient.newHttpClient();
-        urlAPI+="BRL-";
-        urlAPI+=locale;
-        URI uri = URI.create(urlAPI);
-        HttpRequest request = HttpRequest.newBuilder(uri).GET().build();
-        try {
-            HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
-            String body = response.body();
-            body = body.substring(10, body.length()-1);
-            Gson gson = new Gson();
-            Value valueResult = gson.fromJson(body,Value.class);
-            value = new BigDecimal(valueResult.getBid());
-            System.out.println(value);
-            CurrencyUnit currencyUnit = Monetary.getCurrency(locale);
-            MonetaryAmount monetaryAmount = Money.of(value,currencyUnit);
-            return monetaryAmount;
-        } catch (IOException | InterruptedException e) {
-            throw new RuntimeException(e);
+    public  MonetaryAmount convertValue(BigDecimal value, String localeFrom, String localeTo) {
+        if (!localeFrom.equals(localeTo)) {
+            HttpClient httpClient = HttpClient.newHttpClient();
+            urlAPI += localeFrom + "-";
+            urlAPI += localeTo;
+            URI uri = URI.create(urlAPI);
+            HttpRequest request = HttpRequest.newBuilder(uri).GET().build();
+            try {
+                HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
+                String body = response.body();
+                body = body.substring(10, body.length() - 1);
+                Gson gson = new Gson();
+                Value valueResult = gson.fromJson(body, Value.class);
+                value = new BigDecimal(valueResult.getBid());
+                CurrencyUnit currencyUnit = Monetary.getCurrency(localeTo);
+                return Money.of(value, currencyUnit);
+
+            } catch (IOException | InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        else{
+            CurrencyUnit currencyUnit = Monetary.getCurrency(localeTo);
+            return Money.of(value, currencyUnit);
         }
     }
 
