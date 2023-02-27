@@ -1,5 +1,5 @@
-import gui.PanelButtonConvert;
-import gui.TelaPrograma;
+import view.PanelButtonConvert;
+import view.TelaPrograma;
 
 public class Main {
     public static void main(String[] args) {
