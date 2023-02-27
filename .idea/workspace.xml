@@ -6,22 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConvertValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ConvertValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListOptionMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ListOptionMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Localization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/PanelButtonConvert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TelaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TelaGenerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TelaPrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gui/TelaPrograma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ConvertValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ListOptionMoney.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Localization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PanelButtonConvert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TelaGenerica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TelaPrograma.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Value.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.resourceCache/ECBCurrentRateProvider.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.resourceCache/ECBHistoric90RateProvider.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.resourceCache/ECBHistoricRateProvider.dat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "C:/Users/wesle/OneDrive - acad.ifma.edu.br/formacao alura/challengers alura/conversor-moedas/Conversor de Moedas",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -92,7 +80,8 @@
       <workItem from="1676749846683" duration="10973000" />
       <workItem from="1676838573917" duration="37246000" />
       <workItem from="1677081493764" duration="133000" />
-      <workItem from="1677100898807" duration="9489000" />
+      <workItem from="1677100898807" duration="10366000" />
+      <workItem from="1677454206400" duration="598000" />
     </task>
     <servers />
   </component>
