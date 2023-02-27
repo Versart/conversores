@@ -3,9 +3,9 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class TelaGenerica extends JPanel {
+public class GenericPanel extends JPanel {
 
-    public TelaGenerica(Color color){
+    public GenericPanel(Color color){
         this.setBackground(color);
     }
 }

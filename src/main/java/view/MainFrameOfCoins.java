@@ -3,10 +3,10 @@ package view;
 import javax.swing.*;
 import java.awt.*;
 
-public class TelaPrograma extends JFrame {
+public class MainFrameOfCoins extends JFrame {
     private int cols;
     private int rows;
-    public TelaPrograma(int rows,int cols,String title){
+    public MainFrameOfCoins(int rows, int cols, String title){
         this.setSize(1280,720);
         this.setTitle(title);
         this.cols = cols;
@@ -22,7 +22,7 @@ public class TelaPrograma extends JFrame {
                         this.add(panel);
                     }
                     else{
-                        this.add(new TelaGenerica(new Color(0x4669CE)));
+                        this.add(new GenericPanel(new Color(0x4669CE)));
                     }
                 }
             }

@@ -17,28 +17,6 @@ public  class  ConvertValue {
 
     private  String urlAPI = "https://economia.awesomeapi.com.br/last/";
 
-    /*public static MonetaryAmount convertValue(BigDecimal value,Locale locale){
-        ExchangeRateProvider imfProvider = MonetaryConversions.getExchangeRateProvider("IMF");
-        CurrencyUnit originalValue = Monetary.getCurrency("BRL");
-        CurrencyUnit currencyUnit = Monetary.getCurrency(locale);
-        CurrencyConversion imfConvertion = imfProvider.getCurrencyConversion(currencyUnit);
-
-
-        MonetaryAmount money = Money.of(value, originalValue);
-        return   money.with(imfConvertion);
-    }*/
-
-//    public static MonetaryAmount convertValue(BigDecimal value, String locale) {
-//        ExchangeRateProvider provider = MonetaryConversions.getExchangeRateProvider("IMF");
-//        CurrencyUnit originalValue = Monetary.getCurrency("BRL");
-//        CurrencyUnit currencyUnit = Monetary.getCurrency(locale);
-//        CurrencyConversion conversion = provider.getCurrencyConversion(currencyUnit);
-//
-//
-//        MonetaryAmount money = FastMoney.of(value, originalValue);
-//        return   money.with(conversion);
-//    }
-
     public  MonetaryAmount convertValue(BigDecimal value, String localeFrom, String localeTo) {
         if (!localeFrom.equals(localeTo)) {
             HttpClient httpClient = HttpClient.newHttpClient();

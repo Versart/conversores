@@ -9,6 +9,15 @@
       <change beforePath="$PROJECT_DIR$/.resourceCache/ECBCurrentRateProvider.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.resourceCache/ECBHistoric90RateProvider.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.resourceCache/ECBHistoricRateProvider.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ListOptionMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ListOptionMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Localization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ConvertValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/ConvertValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/PanelButtonConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/PanelConverterOfCoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/PanelOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/PanelOptionsOfCoins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/TelaGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GenericPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/TelaPrograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainFrameOfCoins.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +91,7 @@
       <workItem from="1677081493764" duration="133000" />
       <workItem from="1677100898807" duration="10366000" />
       <workItem from="1677454206400" duration="598000" />
+      <workItem from="1677527448389" duration="2628000" />
     </task>
     <servers />
   </component>

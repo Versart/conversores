@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 
-public class PanelButtonConvert extends JPanel implements ActionListener {
+public class PanelConverterOfCoin extends JPanel implements ActionListener {
 
     private JButton buttonToConvert;
 
@@ -29,7 +29,7 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
     private JButton buttonTo;
 
     private List<String> options;
-    public PanelButtonConvert(){
+    public PanelConverterOfCoin(){
         this.setBackground(new Color(0x4669CE));
         this.setLayout(new GridLayout(5,1,0,20));
         optionsConversionFrom = new JComboBox<>(new ListOptionMoney().getConversiosMoney().toArray());
@@ -46,7 +46,7 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
                 optionsConversionTo.setSelectedItem(selectedItemFrom);
             }
         });
-        PanelOptions panelOptions = new PanelOptions();
+        PanelOptionsOfCoins panelOptions = new PanelOptionsOfCoins();
         panelOptions.add(optionsConversionFrom);
         panelOptions.add(buttonTo);
         panelOptions.add(optionsConversionTo);
@@ -57,8 +57,6 @@ public class PanelButtonConvert extends JPanel implements ActionListener {
         conversionResult = new JLabel();
         conversionResult.setVisible(false);
         buttonToConvert.setText("Converter");
-        /*buttonToConvert.setBackground(new Color(0,0,0));
-        buttonToConvert.setForeground(new Color(255,255,255));*/
         this.add(panelOptions);
         this.add(jLabel);
         this.add(inputValue);
