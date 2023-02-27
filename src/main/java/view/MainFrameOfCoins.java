@@ -6,7 +6,11 @@ import java.awt.*;
 public class MainFrameOfCoins extends JFrame {
     private int cols;
     private int rows;
+
+    private MenuBarConverter menuBarConverter;
     public MainFrameOfCoins(int rows, int cols, String title){
+        menuBarConverter = new MenuBarConverter();
+        this.setJMenuBar(menuBarConverter);
         this.setSize(1280,720);
         this.setTitle(title);
         this.cols = cols;
