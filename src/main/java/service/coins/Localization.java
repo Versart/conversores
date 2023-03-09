@@ -1,4 +1,4 @@
-package service;
+package service.coins;
 
 public class Localization {
 

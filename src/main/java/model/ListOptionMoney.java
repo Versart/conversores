@@ -1,4 +1,4 @@
-package service;
+package model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class ListOptionMoney {
         conversionMoney.add("Real");
     }
 
-    public  List<String> getConversiosMoney() {
+    public  List<String> getConversionMoney() {
         return this.conversionMoney;
     }
 }

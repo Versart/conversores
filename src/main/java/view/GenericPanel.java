@@ -5,7 +5,10 @@ import java.awt.*;
 
 public class GenericPanel extends JPanel {
 
-    public GenericPanel(Color color){
-        this.setBackground(color);
+
+    public GenericPanel(){
+        this.setBackground(new Color(0xD3D3D1));
     }
+
+
 }

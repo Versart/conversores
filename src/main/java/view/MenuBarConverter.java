@@ -2,6 +2,8 @@ package view;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class MenuBarConverter extends JMenuBar {
 
@@ -17,6 +19,29 @@ public class MenuBarConverter extends JMenuBar {
         converter.add(jMenuItemCoin);
         converter.add(jMenuItemTemp);
         this.add(converter);
-       
+    }
+
+    public JMenu getConverter() {
+        return converter;
+    }
+
+    public void setConverter(JMenu converter) {
+        this.converter = converter;
+    }
+
+    public JMenuItem getjMenuItemCoin() {
+        return jMenuItemCoin;
+    }
+
+    public void setjMenuItemCoin(JMenuItem jMenuItemCoin) {
+        this.jMenuItemCoin = jMenuItemCoin;
+    }
+
+    public JMenuItem getjMenuItemTemp() {
+        return jMenuItemTemp;
+    }
+
+    public void setjMenuItemTemp(JMenuItem jMenuItemTemp) {
+        this.jMenuItemTemp = jMenuItemTemp;
     }
 }

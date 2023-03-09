@@ -1,14 +1,16 @@
-package view;
+package view.panelscoins;
 
-import service.ConvertValue;
-import service.ListOptionMoney;
-import service.Localization;
+import service.coins.ConvertValue;
+import model.ListOptionMoney;
+import service.coins.Localization;
+import view.PanelOptions;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.math.BigDecimal;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -29,11 +31,15 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
     private JButton buttonTo;
 
     private List<String> options;
+
+    private boolean active;
     public PanelConverterOfCoin(){
-        this.setBackground(new Color(0x4669CE));
+        this.setBackground(new Color(0xD3D3D1));
         this.setLayout(new GridLayout(5,1,0,20));
-        optionsConversionFrom = new JComboBox<>(new ListOptionMoney().getConversiosMoney().toArray());
-        optionsConversionTo = new JComboBox<>(new ListOptionMoney().getConversiosMoney().toArray());
+        List<String> inverted = new ListOptionMoney().getConversionMoney();
+        Collections.reverse(inverted);
+        optionsConversionFrom = new JComboBox<>(new ListOptionMoney().getConversionMoney().toArray());
+        optionsConversionTo = new JComboBox<>(inverted.toArray());
         buttonTo = new JButton();
         buttonTo.setText("⇆");
         buttonTo.setFont(new Font(null,SOMEBITS,30));
@@ -46,7 +52,7 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
                 optionsConversionTo.setSelectedItem(selectedItemFrom);
             }
         });
-        PanelOptionsOfCoins panelOptions = new PanelOptionsOfCoins();
+        PanelOptions panelOptions = new PanelOptions();
         panelOptions.add(optionsConversionFrom);
         panelOptions.add(buttonTo);
         panelOptions.add(optionsConversionTo);
@@ -68,7 +74,6 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent event) {
         if(inputValue.getText().trim().length() > 0){
             try {
-
                 String input = inputValue.getText();
                 BigDecimal valor = new BigDecimal(input);
                 String valueFrom = Localization.getLocale(optionsConversionFrom.getSelectedItem().toString());
@@ -86,5 +91,13 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
             JOptionPane.showMessageDialog(null,"Nenhum valor no input",
                     "Sem valor",JOptionPane.ERROR_MESSAGE);
         }
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
     }
 }

@@ -1,6 +1,7 @@
-package service;
+package service.coins;
 
 import com.google.gson.Gson;
+import model.Value;
 import org.javamoney.moneta.Money;
 
 import javax.money.CurrencyUnit;

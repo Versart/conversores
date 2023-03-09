@@ -1,12 +1,12 @@
-import view.PanelConverterOfCoin;
-import view.MainFrameOfCoins;
+import view.panelscoins.PanelConverterOfCoin;
+import view.MainFrame;
 
 public class Main {
     public static void main(String[] args) {
 
 
-        MainFrameOfCoins telaPrograma = new MainFrameOfCoins(3,3,"Conversor");
-        telaPrograma.addInPosition(2,2,new PanelConverterOfCoin());
+        MainFrame telaPrograma = new MainFrame(3,3,"Conversor");
+        telaPrograma.createFrameCoins();
         telaPrograma.setVisible(true);
     }
 }
