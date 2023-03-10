@@ -29,6 +29,16 @@ No conversor de temperatura é utilizado uma barra de rolagem para indicar o val
 
 https://user-images.githubusercontent.com/63207704/224402850-b5c4c9bf-c964-4874-be3f-a4e9afd1c5a3.mp4
 
+<h3>Alterar conversor</h3>
+
+A navegação entre os conversores é feita através do botão que fica no canto superior esquerdo.
+
+
+
+https://user-images.githubusercontent.com/63207704/224420732-fe00df29-3b4f-471b-8f47-cdc4592dfa1f.mp4
+
+
+
 <h2> Tecnologias utilizadas</h2>
 
 <ul>
