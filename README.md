@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/63207704/224402850-b5c4c9bf-c964-4874-
 
 <ul>
         <li><a target="blank" href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java 17</a></li>
-        <li><a target="blank" href="https://maven.apache.org/"> Maven 3.8.1</a> </li>
+        <li><a target="_blank" href="https://maven.apache.org/"> Maven 3.8.1</a> </li>
         <li><a target="blank" href="https://github.com/google/gson">Gson</a></li>
         <li><a target="blank" href="https://javamoney.github.io/">Java Money</a></li>
 </ul>
