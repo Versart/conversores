@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/PanelOptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ConvertValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/coins/ConvertValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/ListOptionMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ListOptionMoney.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/coins/Localization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Value.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/GenericPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GenericPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainFrameOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MenuBarConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MenuBarConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/PanelConverterOfCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/panelscoins/PanelConverterOfCoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/PanelOptionsOfCoins.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ConvertValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/ListOptionMoney.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Localization.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/Value.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/GenericPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/GenericPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/MainFrameOfCoins.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/MenuBarConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/MenuBarConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PanelConverterOfCoin$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PanelConverterOfCoin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/view/PanelOptionsOfCoins.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +86,7 @@
       <workItem from="1677589068203" duration="176000" />
       <workItem from="1678046632791" duration="32314000" />
       <workItem from="1678299119850" duration="4867000" />
-      <workItem from="1678371878575" duration="8111000" />
+      <workItem from="1678371878575" duration="9271000" />
     </task>
     <servers />
   </component>

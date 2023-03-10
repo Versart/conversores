@@ -88,6 +88,6 @@ public class PanelTemp extends JPanel implements ChangeListener {
            resultConversion = ConvertToFahrenheit.toFahrenheit(jSlider.getValue(), optionsConversionFrom.getSelectedItem().toString());
         }
         labelTemp.setText(jSlider.getValue() +" " + optionsConversionFrom.getSelectedItem().toString()
-                + " = " + resultConversion + optionsConversionTo.getSelectedItem().toString());
+                + " = " + resultConversion + " "+ optionsConversionTo.getSelectedItem().toString());
     }
 }

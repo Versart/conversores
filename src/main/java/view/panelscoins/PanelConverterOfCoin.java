@@ -61,6 +61,7 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
         inputValue = new JTextField(10);
         jLabel = new JLabel("Digite o valor:");
         conversionResult = new JLabel();
+        conversionResult.setFont(new Font(null,SOMEBITS,20));
         conversionResult.setVisible(false);
         buttonToConvert.setText("Converter");
         this.add(panelOptions);
