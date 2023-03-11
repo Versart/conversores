@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/ArgentinePeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/ArgentinePeso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/ChileanPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/ChileanPeso.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Dolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Dolar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Euro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Euro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/PoundSterling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/PoundSterling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Real.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Real.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/panelscoins/PanelConverterOfCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/panelscoins/PanelConverterOfCoin.java" afterDir="false" />
-    </list>
+    <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
