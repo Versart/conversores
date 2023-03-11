@@ -1,35 +1,52 @@
-# Conversor de moedas challenger alura
+<h1 align = "center">Conversores</h1>
 
-História
+<h2> Descrição do projeto</h2>
 
-Nesta oportunidade foi solicitado para nós Devs a criação de um conversor de moeda utilizando a linguagem Java. As características solicitadas por nosso cliente são as seguintes:
+Atualmente o projeto possui dois conversores: **conversor de moeda** e o **conversor de temperatura**.
 
-O conversor de moeda deverá:- Converter de Reais a Dólar- Converter de Reais a Euro- Converter de Reais a Libras Esterlinas- Converter de Reais a Peso argentino- Converter de Reais a Peso Chileno
+<h3>Conversor de Moeda</h3>
+O conversor de moeda converte para as seguintes moedas:
 
-Lembrando que deve ser possível também converter de forma inversa ou seja:
+        - Dólar
+        - Euro
+        - Libras Esterlinas 
+        - Peso argentino 
+        - Peso Chileno
+        - Real
 
-        - Converter de Dólar a Reais
-        - Converter de Euro a Reais
-        - Converter de Libras Esterlinas a Reais
-        - Converter de Peso argentino a  Reais
-        - Converter de Peso Chileno a Reais
+Basta digitar o valor e escolher as moedas
 
-Como desafio extra incentivamos vocês a deixar fluir sua criatividade, se posso converter moedas, será que posso tal vez adicionar a meu programa outro tipo de conversões como temperatura por exemplo?
+https://user-images.githubusercontent.com/63207704/224396606-9af86a54-f2ec-44df-bf48-e934b84e0ef2.mp4
 
-É hora de surpreender nosso cliente com uma feature que tal vez nem ele sabia que precisava.
+<h3>conversor de temperatura</h3>
+O conversor de temperatura converte as seguintes medidas de temperatura:
+
+        - Celsius
+        - Kelvin
+        - Fahrenheit
+
+No conversor de temperatura é utilizado uma barra de rolagem para indicar o valor da temperatura que deseja converter.
+
+https://user-images.githubusercontent.com/63207704/224402850-b5c4c9bf-c964-4874-be3f-a4e9afd1c5a3.mp4
+
+<h3>Alterar conversor</h3>
+
+A navegação entre os conversores é feita através do botão que fica no canto superior esquerdo.
 
 
 
-Temos um período de tempo de duas semanas para desenvolver  o projeto  e vamos trabalhar com o sistema ágil de desenvolvimento utilizando o Trello da seguinte forma:
+https://user-images.githubusercontent.com/63207704/224420732-fe00df29-3b4f-471b-8f47-cdc4592dfa1f.mp4
 
-A coluna "Pronto pra iniciar" apresenta os cartões com os elementos ainda não desenvolvidos;
 
-Já na coluna "Desenvolvendo" ficarão os elementos que você estiver desenvolvendo no momento. Ao iniciar uma tarefa, você poderá mover o cartão que contém a tarefa para esta coluna.
 
-No "Pausado" estarão os elementos que você começou a desenvolver, porém não concluiu ainda. Por exemplo, se você começou a desenvolver a tarefa de um card, mas decidiu pausar para se concentrar primeiro em outra parte do projeto;
+<h2> Tecnologias utilizadas</h2>
 
-Por fim, a coluna "Concluído" terá os elementos já concluídos.
+<ul>
+        <li><a target="blank" href="https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html">Java 17</a></li>
+        <li><a target="blank" href="https://maven.apache.org/"> Maven 3.8.1</a> </li>
+        <li><a target="blank" href="https://github.com/google/gson">Gson</a></li>
+        <li><a target="blank" href="https://javamoney.github.io/">Java Money</a></li>
+</ul>
 
-O Trello é uma ferramenta de uso individual para você controlar o andamento das suas atividades, mas ela não será avaliada.
 
-Bom projeto!
+
