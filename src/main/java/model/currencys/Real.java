@@ -4,7 +4,12 @@ import model.Currency;
 
 public class Real implements Currency {
     @Override
-    public String currencyName() {
+    public String currencyNameAbbreviated() {
         return "BRL";
+    }
+
+    @Override
+    public String toString() {
+        return "Real";
     }
 }

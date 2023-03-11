@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e6eea8db-3bcb-48a5-a878-c89b17506cbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Currency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ListOptionMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/ListOptionMoney.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/ArgentinePeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/ArgentinePeso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/ChileanPeso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/ChileanPeso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Dolar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Dolar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Euro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Euro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/PoundSterling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/PoundSterling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/currencys/Real.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/currencys/Real.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/coins/Localization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/coins/Localization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/panelscoins/PanelConverterOfCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/panelscoins/PanelConverterOfCoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +99,7 @@
       <workItem from="1678046632791" duration="32314000" />
       <workItem from="1678299119850" duration="4867000" />
       <workItem from="1678371878575" duration="16186000" />
-      <workItem from="1678557396275" duration="1332000" />
+      <workItem from="1678557396275" duration="12033000" />
     </task>
     <servers />
   </component>

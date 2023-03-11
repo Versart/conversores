@@ -1,5 +1,6 @@
 package view.panelscoins;
 
+import model.Currency;
 import service.coins.ConvertValue;
 import model.ListOptionMoney;
 import service.coins.Localization;
@@ -12,6 +13,9 @@ import java.awt.event.ActionListener;
 import java.math.BigDecimal;
 import java.util.Collections;
 import java.util.List;
+import java.util.Vector;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 
 public class PanelConverterOfCoin extends JPanel implements ActionListener {
@@ -36,20 +40,18 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
     public PanelConverterOfCoin(){
         this.setBackground(new Color(0xD3D3D1));
         this.setLayout(new GridLayout(5,1,0,20));
-        List<String> inverted = new ListOptionMoney().getConversionMoney();
+        List<Currency> inverted = new ListOptionMoney().getConversionMoney();
         Collections.reverse(inverted);
         optionsConversionFrom = new JComboBox<>(new ListOptionMoney().getConversionMoney().toArray());
-        optionsConversionTo = new JComboBox<>(inverted.toArray());
+        optionsConversionTo = new JComboBox<>(new ListOptionMoney().getConversionMoney().toArray());
         buttonTo = new JButton();
         buttonTo.setText("⇆");
         buttonTo.setFont(new Font(null,SOMEBITS,30));
         buttonTo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String selectedItemFrom = optionsConversionFrom.getSelectedItem().toString();
-                String selectedItemTo = optionsConversionTo.getSelectedItem().toString();
-                optionsConversionFrom.setSelectedItem(selectedItemTo);
-                optionsConversionTo.setSelectedItem(selectedItemFrom);
+                optionsConversionFrom.setSelectedItem((Currency)optionsConversionTo.getSelectedItem());
+                optionsConversionTo.setSelectedItem((Currency)optionsConversionFrom.getSelectedItem());
             }
         });
         PanelOptions panelOptions = new PanelOptions();
@@ -77,8 +79,8 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
             try {
                 String input = inputValue.getText();
                 BigDecimal valor = new BigDecimal(input);
-                String valueFrom = Localization.getLocale(optionsConversionFrom.getSelectedItem().toString());
-                String valueTo = Localization.getLocale(optionsConversionTo.getSelectedItem().toString());
+                String valueFrom = Localization.getLocale((Currency) optionsConversionFrom.getSelectedItem());
+                String valueTo = Localization.getLocale((Currency) optionsConversionTo.getSelectedItem());
 
                 this.conversionResult.setText("O valor convertido é: " + new ConvertValue().convertValue(valor,valueFrom,valueTo));
                 this.conversionResult.setVisible(true);

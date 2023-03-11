@@ -5,7 +5,12 @@ import model.Currency;
 public class PoundSterling implements Currency {
 
     @Override
-    public String currencyName() {
+    public String currencyNameAbbreviated() {
         return "GBP";
+    }
+
+    @Override
+    public String toString() {
+        return "Libra Esterlina";
     }
 }

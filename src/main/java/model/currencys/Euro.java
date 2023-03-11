@@ -5,7 +5,12 @@ import model.Currency;
 public class Euro implements Currency {
 
     @Override
-    public String currencyName() {
+    public String currencyNameAbbreviated() {
         return "EUR";
+    }
+
+    @Override
+    public String toString() {
+        return "Euro";
     }
 }

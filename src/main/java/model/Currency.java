@@ -2,5 +2,7 @@ package model;
 
 public interface Currency {
 
-    String currencyName();
+    String currencyNameAbbreviated();
+
+
 }

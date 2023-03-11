@@ -27,7 +27,6 @@ public class MainFrame extends JFrame implements ActionListener {
         }
     }
 
-
     public MainFrame(int rows, int cols, String title){
         menuBarConverter = new MenuBarConverter();
         menuBarConverter.getjMenuItemCoin().addActionListener(this);

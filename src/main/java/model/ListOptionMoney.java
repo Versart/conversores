@@ -1,23 +1,25 @@
 package model;
 
+import model.currencys.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListOptionMoney {
 
-    private List<String> conversionMoney;
+    private List<Currency> conversionMoney;
 
     public ListOptionMoney() {
         conversionMoney = new ArrayList<>();
-        conversionMoney.add("Dolar");
-        conversionMoney.add("Euro");
-        conversionMoney.add("Libras Esterlinas");
-        conversionMoney.add("Peso Argentino");
-        conversionMoney.add("Peso Chileno");
-        conversionMoney.add("Real");
+        conversionMoney.add(new ArgentinePeso());
+        conversionMoney.add(new ChileanPeso());
+        conversionMoney.add(new Dolar());
+        conversionMoney.add(new Euro());
+        conversionMoney.add(new PoundSterling());
+        conversionMoney.add(new Real());
     }
 
-    public  List<String> getConversionMoney() {
+    public  List<Currency> getConversionMoney() {
         return this.conversionMoney;
     }
 }
