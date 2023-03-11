@@ -43,15 +43,19 @@ public class PanelConverterOfCoin extends JPanel implements ActionListener {
         List<Currency> inverted = new ListOptionMoney().getConversionMoney();
         Collections.reverse(inverted);
         optionsConversionFrom = new JComboBox<>(new ListOptionMoney().getConversionMoney().toArray());
-        optionsConversionTo = new JComboBox<>(new ListOptionMoney().getConversionMoney().toArray());
+        optionsConversionTo = new JComboBox<>(inverted.toArray());
         buttonTo = new JButton();
         buttonTo.setText("⇆");
         buttonTo.setFont(new Font(null,SOMEBITS,30));
         buttonTo.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                optionsConversionFrom.setSelectedItem((Currency)optionsConversionTo.getSelectedItem());
-                optionsConversionTo.setSelectedItem((Currency)optionsConversionFrom.getSelectedItem());
+                Currency selectedFrom = (Currency) optionsConversionFrom.getSelectedItem();
+                Currency selectedTo = (Currency) optionsConversionTo.getSelectedItem();
+                System.out.println(selectedFrom);
+                System.out.println(selectedTo);
+                optionsConversionFrom.setSelectedItem((Currency) selectedTo);
+                optionsConversionTo.setSelectedItem(selectedFrom);
             }
         });
         PanelOptions panelOptions = new PanelOptions();
